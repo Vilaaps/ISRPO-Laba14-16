@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог - TechStore</title>
+    <!-- Сначала основной стиль -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Потом стили для каталога -->
+    <link rel="stylesheet" href="catalog.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">TechStore</div>
+            <nav class="nav">
+                <a href="index.html">Главная</a>
+                <a href="catalog.html" class="active">Каталог</a>
+                <a href="about.html">О нас</a>
+            </nav>
+            <div class="icons">
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Секция товаров -->
+    <section class="catalog-section">
+        <div class="container">
+            <h2 class="catalog-section-title">Все товары</h2>
+            <div class="catalog-grid">
+                <!-- Товар 1 -->
+                <div class="catalog-item">
+                    <div class="catalog-badge">Хит</div>
+                    <img src="https://c.dns-shop.ru/thumb/st1/fit/300/300/5d705f00f54219c7835cb8db784ef620/2258685cc32bbd96de406852bd9b2d94916029658cd6fa120a9f97a4bc0af297.jpg.webp" alt="Телефон" class="catalog-img">
+                    <h3 class="catalog-item-title">Смартфон Apple iPhone 15 черный</h3>
+                    <p class="catalog-item-desc">Apple iPhone 15, 128 ГБ</p>
+                    <div class="catalog-rating">★★★★★ <span>5.0</span></div>
+                    <div class="catalog-price">63 990 ₽</div>
+                    <button class="catalog-btn">В корзину</button>
+                </div>
+
+                <!-- Товар 2 -->
+                <div class="catalog-item">
+                    <img src="https://c.dns-shop.ru/thumb/st1/fit/300/300/b3decbdb7d99e53b2fc17a26847012b4/73dd06c0a2d4c9ff74cfaafaedec60012cae0a437e72ed35351e0fa8fa203289.jpg.webp" alt="Наушники" class="catalog-img">
+                    <h3 class="catalog-item-title">Беспроводные наушники Logitech G435</h3>
+                    <p class="catalog-item-desc">Logitech G435, беспроводные наушники</p>
+                    <div class="catalog-rating">★★★★☆ <span>4.5</span></div>
+                    <div class="catalog-price">79 990 ₽</div>
+                    <button class="catalog-btn">В корзину</button>
+                </div>
+
+                <!-- Товар 3 -->
+                <div class="catalog-item">
+                    <div class="catalog-badge catalog-badge-new">Новинка</div>
+                    <img src="https://c.dns-shop.ru/thumb/st1/fit/300/300/66f590f374f89a9f83319c0fbbdb7cb1/c65781fa62ddad1e1678b9057bba6ed5e36c66023f82365cbb22fbae10eea854.jpg.webp" alt="Мышка" class="catalog-img">
+                    <h3 class="catalog-item-title">Мышь Attack Shark R5 Ultra</h3>
+                    <p class="catalog-item-desc">беспроводная, боковые кнопки</p>
+                    <div class="catalog-rating">★★★★★ <span>5.0</span></div>
+                    <div class="catalog-price">5 899 ₽</div>
+                    <button class="catalog-btn">В корзину</button>
+                </div>
+
+                <!-- Товар 4 -->
+                <div class="catalog-item">
+                    <img src="https://c.dns-shop.ru/thumb/st1/fit/300/300/48e84f5bfdde1e34cddad6a45fec4638/507ff29b46876a6d53263cb2b7ae2237578cb726ef741b48744081f287a183ea.jpg.webp" alt="Ноутбук" class="catalog-img">
+                    <h3 class="catalog-item-title">Ноутбук HONOR MagicBook X16</h3>
+                    <p class="catalog-item-desc">IPS, 1920x1200, 60 Гц</p>
+                    <div class="catalog-rating">★★★★★ <span>5.0</span></div>
+                    <div class="catalog-price">59 999 ₽</div>
+                    <button class="catalog-btn">В корзину</button>
+                </div>
+
+                <!-- Товар 5 -->
+                <div class="catalog-item">
+                    <img src="https://c.dns-shop.ru/thumb/st4/fit/wm/0/0/76e34008968655bce32389406183ef5d/c37b87cdd3b98e67bf3de94e1b93911f2e3e07617573ca205a3a6b25532eec50.jpg.webp" alt="Кресло" class="catalog-img">
+                    <h3 class="catalog-item-title">Компьютерное кресло ARDOR GAMING Chaos Guard 400M черный</h3>
+                    <p class="catalog-item-desc">550 мм x 605 мм x 550 мм</p>
+                    <div class="catalog-rating">★★★★☆ <span>4.5</span></div>
+                    <div class="catalog-price">11 399 ₽</div>
+                    <button class="catalog-btn">В корзину</button>
+                </div>
+
+                <!-- Товар 6 -->
+                <div class="catalog-item">
+                    <img src="https://c.dns-shop.ru/thumb/st1/fit/500/500/7d7373fabf26e167f42299f95627701b/ee5ecfe42fc7ba27a373ec176cace76beb134314586c040e65a607634dc530b4.jpg.webp" alt="Монитор" class="catalog-img">
+                    <h3 class="catalog-item-title">Монитор ARDOR GAMING SIDEWINDER AQ27H1U черный</h3>
+                    <p class="catalog-item-desc">27", 2560x1440 180 Гц</p>
+                    <div class="catalog-rating">★★★★☆ <span>4.0</span></div>
+                    <div class="catalog-price">14 990 ₽</div>
+                    <button class="catalog-btn">В корзину</button>
+                </div>
+
+                <!-- Товар 7 -->
+                <div class="catalog-item">
+                    <img src="https://c.dns-shop.ru/thumb/st4/fit/500/500/f48deae19220fef70b4d298fa094ea88/27f290b5ebd682f5ed69de5a2e8e56859dabcfb6f87194a7f0d66cef78c66dea.jpg.webp" alt="Колонка" class="catalog-img">
+                    <h3 class="catalog-item-title">Умная колонка Яндекс Станция Миди черный</h3>
+                    <p class="catalog-item-desc">Bluetooth, Matter, Wi-Fi, Zigbee</p>
+                    <div class="catalog-rating">★★★★★ <span>5.0</span></div>
+                    <div class="catalog-price">14 199 ₽</div>
+                    <button class="catalog-btn">В корзину</button>
+                </div>
+
+                <!-- Товар 8 -->
+                <div class="catalog-item">
+                    <img src="https://c.dns-shop.ru/thumb/st4/fit/500/500/ab58e64fbcd0b20193a2230a678aa88f/d6c9b2f59755f60252b6c031eea23f6ae058520671e02cd493f4fe126b61d79c.jpg.webp" alt="Наушники" class="catalog-img">
+                    <h3 class="catalog-item-title">Наушники TWS HUAWEI FreeBuds SE 2 белый 2023</h3>
+                    <p class="catalog-item-desc">Bluetooth 5.3, до 9 ч</p>
+                    <div class="catalog-rating">★★★★★ <span>5.0</span></div>
+                    <div class="catalog-price">2 990 ₽</div>
+                    <button class="catalog-btn">В корзину</button>
+                </div>
+
+                <!-- Товар 9 -->
+                <div class="catalog-item">
+                    <img src="https://c.dns-shop.ru/thumb/st1/fit/500/500/71b542d22db62c33443215a8a796eed6/a4549a8dc37088345720fb6adb916b9da4ad9461c0bc0c6a4ddeb5f0f11cb686.jpg.webp" alt="Часы" class="catalog-img">
+                    <h3 class="catalog-item-title">артериальное давление, продолжительность и качество</h3>
+                    <p class="catalog-item-desc">Лазерный, WiFi, 22 стр/мин</p>
+                    <div class="catalog-rating">★★★★☆ <span>4.0</span></div>
+                    <div class="catalog-price">30 499 ₽</div>
+                    <button class="catalog-btn">В корзину</button>
+                </div>
+
+                <!-- Товар 10 -->
+                <div class="catalog-item">
+                    <img src="https://c.dns-shop.ru/thumb/st1/fit/wm/0/0/3f1f505be5a887a9692fa7e9da527d24/b5dadd3825c86a179d7e777b6969414e28ee445f240831f3d0e989d7bd89099c.jpg.webp" alt="Плейстейшен" class="catalog-img">
+                    <h3 class="catalog-item-title">Игровая консоль PlayStation 5 Pro</h3>
+                    <p class="catalog-item-desc">HDMI 2.1 Wi-Fi 7 (802.11be)</p>
+                    <div class="catalog-rating">★★★★★ <span>5.0</span></div>
+                    <div class="catalog-price">76 799 ₽</div>
+                    <button class="catalog-btn">В корзину</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3 class="footer-title">О магазине</h3>
+                    <p class="footer-text">TechStore — ваш надёжный партнёр в мире электроники с 2020 года.</p>
+                </div>
+                <div class="footer-column">
+                    <h3 class="footer-title">Контакты</h3>
+                    <div class="footer-contacts">
+                        <p><i class="fas fa-envelope"></i> info@techstore.ru</p>
+                        <p><i class="fas fa-phone"></i> 7 (800) 555-35-35</p>
+                        <p><i class="fas fa-map-marker-alt"></i> г. Волжский, ул. Пушкина, д. Колотушкина</p>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3 class="footer-title">Мы в соцсетях</h3>
+                    <div class="footer-social">
+                        <a href="#" class="social-link">VK</a>
+                        <a href="#" class="social-link">Telegram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2026 TechStore. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
