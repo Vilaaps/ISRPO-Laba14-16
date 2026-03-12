@@ -65,3 +65,47 @@ body {
     margin-left: 15px;
     transition: color 0.3s;
 }
+
+/* ---Банер--- */
+.hero {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-title {
+    font-size: 48px;
+    margin-bottom: 20px;
+    animation: fadeInDown 1s;
+}
+
+.hero-text {
+    font-size: 24px;
+    margin-bottom: 40px;
+    animation: fadeInUp 1s;
+}
+
+.hero-btn {
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: #fbc41f;
+    color: #333;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s;
+    animation: fadeInUp 1s;
+}
+
+.hero-btn:hover {
+    background-color: #ffca2c;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
